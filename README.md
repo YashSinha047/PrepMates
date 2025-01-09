@@ -33,3 +33,65 @@ cd PrepMates
 ```
 
 ### Install the backend and frontend dependencies.
+
+### Backend
+```bash
+cd backend
+npm install
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+```
+
+### Environment Variables
+### backend.env
+```bash
+MONGO_URI=<Your MongoDB URI>
+JWT_SECRET=<Your Secret Key>
+PORT=5000
+```
+### fronend.env
+```bash
+REACT_APP_API_URL=<API URL for the backend>
+```
+
+### Running the Application
+### Start the Backend
+```bash
+cd backend
+npm start
+```
+
+### Start the Frontend
+```bash
+cd frontend
+npm start
+```
+
+## Usage
+Once the application is running, you can:
+
+- Register or log in to the platform.
+- On the **Dashboard**, create and join groups, manage coding questions, and track job applications.
+- Use the **Real-Time Chat** and **Discussion Forums** to collaborate with others on coding problems.
+- Use **browser extensions** to save coding questions and job postings with personalized notes.
+
+## Contributing
+Feel free to fork the repository, make changes, and submit pull requests. Please make sure your changes align with the project’s goals and maintain code quality.
+
+### Steps for Contributing:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## Future Work
+- Implement reminder system for job postings.
+- Enhance job posting sharing features.
+- Enable study resource uploads for collaborative learning.
+
+
