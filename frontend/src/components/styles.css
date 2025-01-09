@@ -1,0 +1,92 @@
+/* ChatComponent.css */
+
+/* General message styling */
+.message {
+    display: flex;
+    flex-direction: column; /* Ensure the time appears below the message content */
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+.message-right {
+    background-color: #dcf8c6;
+    margin-left: auto;
+    align-items: flex-end; /* Align the message time to the right */
+}
+
+.message-left {
+    background-color: #f1f0f0;
+    margin-right: auto;
+}
+
+.message-time {
+    font-size: 0.75em; /* Smaller font for the timestamp */
+    color: #999; /* Light grey color for the timestamp */
+    margin-top: 5px;
+}
+
+/* ChatApp.css */
+
+/* Container for the main layout */
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Column for Online Members */
+.online-users-area {
+    width: 20%;
+    height: 100%;
+    overflow-y: auto; /* Scroll for overflow */
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.online-users-area h4 {
+    margin-bottom: 10px;
+}
+
+.list-group .user-box {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Chat Space */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+}
+
+.message-area {
+    height: 80%; /* Adjust based on preference */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Message Input */
+.message-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.message-input input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.message-input button {
+    padding: 8px 16px;
+}
+

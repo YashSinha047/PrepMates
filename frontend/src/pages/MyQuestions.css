@@ -1,0 +1,25 @@
+.container {
+    max-width: 800px;
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    border: 1px solid #dee2e6;
+  }
+  
+  .list-group-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .list-group-item a:hover {
+    text-decoration: underline;
+  }
+  
